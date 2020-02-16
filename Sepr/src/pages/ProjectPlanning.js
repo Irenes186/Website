@@ -6,7 +6,7 @@ import Section from '../components/Section';
 
 export default class ProjectPlanning extends React.Component {
     render() {
-        const storageRef = storage.ref().child('/3Project Planning');
+        const storageRef = storage.ref().child('/FirebaseStructure/3Project Planning');
         const { DeviceWidth } = this.props;
         return (
            <div style={{

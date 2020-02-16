@@ -6,7 +6,7 @@ import Section from '../components/Section';
 
 export default class Testing extends React.Component {
     render() {
-        const storageRef = storage.ref().child('/6Testing');
+        const storageRef = storage.ref().child('/FirebaseStructure/6Testing');
         const { DeviceWidth } = this.props;
         return (
            <div style={{
