@@ -15,6 +15,8 @@ import Menu from './pages/Menu';
 import ProjectPlanning from './pages/ProjectPlanning';
 import Testing from './pages/Testing';
 import Implementation from './pages/Implementation';
+import Changes from './pages/Changes';
+import SelfAssessment from './pages/SelfAssessment';
 
 const DeviceInfoContext = createContext(window.innerWidth);
 
@@ -88,6 +90,12 @@ export default function App() {
               </Route>
               <Route path="/requirements">
                 <Requirements DeviceWidth={width} />
+              </Route>
+              <Route path="/changes">
+                <Changes DeviceWidth={width} />
+              </Route>
+              <Route path="/selfassessment">
+                <SelfAssessment DeviceWidth={width} />
               </Route>
               
               <Route path="/menu">

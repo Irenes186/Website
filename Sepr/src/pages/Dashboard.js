@@ -35,12 +35,13 @@ const Dashboard = ({ DeviceWidth }) => {
                     </a>
                     <p>The following links contain details about our project</p>
                     <ul>
-                        <li><a href="https://docs.google.com/document/d/1Lt1E5ticyUY1MxAbgrukSLbxdkpNmpdKNJyOXPUJBpw/edit?usp=sharing" rel="noopener noreferrer" target="_blank">
+                        <li><a href="https://drive.google.com/file/d/1TymdH1py0cL52On4k3azOCH9zPowLtUc/view?usp=sharing" rel="noopener noreferrer" target="_blank">
                             <h5>The User manual for Kroy can be found here</h5>
                         </a></li>
-                        <li><a href="https://github.com/ArchieGodfrey/Kroy" rel="noopener noreferrer" target="_blank">
-                            <h5>The Github repo for the game can be found here</h5>
+                        <li><a href="https://github.com/Irenes186/Website" rel="noopener noreferrer" target="_blank">
+                            <h5>GitHub Repo for this website</h5>
                         </a></li>
+                    
                     </ul>
                     
                 {DeviceWidth <= 850 && <Iframe url="https://salt-and-sepr.web.app"
