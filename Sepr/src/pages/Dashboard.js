@@ -17,18 +17,9 @@ const Dashboard = ({ DeviceWidth }) => {
                 }}
             />}
             <div>
-                {DeviceWidth > 850 && <div style={{position: 'absolute', left: DeviceWidth * 0.6}}>
-                    <Iframe
-                        url="https://salt-and-sepr.web.app"
-                        width={DeviceWidth * 0.3}
-                        height={window.innerHeight * 0.5}
-                    />
-                    <a href="https://salt-and-sepr.web.app" rel="noopener noreferrer" target="_blank">
-                        <h4 style={{textAlign: 'center', color: 'black'}}><strong>View documentation in a new page</strong></h4>
-                    </a>
-                </div>}
+         
 
-                <h1 style={{fontSize: '3.5rem', marginBottom: '1rem'}}>Play <strong style={{fontSize: '5rem'}}>Kroy!</strong></h1>
+               <h1 style={{fontSize: '3.5rem', marginBottom: '1rem'}}>Play <strong style={{fontSize: '5rem'}}>Kroy!</strong></h1>
                 <h3 style={{ marginBottom: '1rem'}}>Created by <strong style={{fontSize: '2.5rem'}}>MiKroysoft!</strong></h3>
                     <a href="https://drive.google.com/a/york.ac.uk/file/d/1yjQCnpAWV_J7Hk0eDUBXWFZsT8MuFupM/view?usp=sharing" rel="noopener noreferrer" target="_blank">
                         <h5>Download the game here</h5>
@@ -43,11 +34,7 @@ const Dashboard = ({ DeviceWidth }) => {
                         </a></li>
                     
                     </ul>
-                    
-                {DeviceWidth <= 850 && <Iframe url="https://salt-and-sepr.web.app"
-                    width={DeviceWidth > 960 ? 960 : DeviceWidth}
-                    height={window.innerHeight - window.innerHeight * 0.21}
-                />}
+                
             </div>
         </div>
     );

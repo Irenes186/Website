@@ -19,12 +19,12 @@ export default class ProjectPlanning extends React.Component {
                <ul>
                    <li>
                     <a href="https://docs.google.com/document/d/1rC-AK8V_15Chx2y9bubHaMAIRrU4NdfQzSaiDZsgo3Y/edit?usp=sharing" rel="noopener noreferrer" target="_blank">
-                        <h4>Calendar Plans</h4>
+                        <h4>Calendar Plans for Assessment 4</h4>
                     </a>
                    </li>
                    <li>
                     <a href="https://docs.google.com/spreadsheets/d/1Ho49NHwIYd1VwHRpWdaZ0DFUthhj9qsInbHv4TwtPl0/edit?usp=sharing" rel="noopener noreferrer" target="_blank">
-                        <h4>Skeleton Plans</h4>
+                        <h4>Skeleton Plans for Assessment 4</h4>
                     </a>
                    </li>
                    </ul>
