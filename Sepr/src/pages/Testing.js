@@ -9,6 +9,7 @@ export default class Testing extends React.Component {
         const storageRef = storage.ref().child('/FirebaseStructure/6Testing');
         const { DeviceWidth } = this.props;
         return (
+            
            <div style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -18,6 +19,11 @@ export default class Testing extends React.Component {
                <h1>Welcome to the Testing page</h1>
                <h4>Below are links to all external files for Assessment 4</h4>
                <ul>
+               <li>
+                    <a href="https://drive.google.com/file/d/1JWpmBVv7m29CKlZ-lSmVEqa6e1m3HsiG/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+                        <h4>Evaluation and Testing Report</h4>
+                    </a>
+                   </li>
                    <li>
                     <a href="https://docs.google.com/spreadsheets/d/1JU1rK-LS1jzFcJrg_5uHe5Zm78SvYtqfBuUTv2Osk2c/edit?usp=sharing" rel="noopener noreferrer" target="_blank">
                         <h4>Test Cases</h4>
