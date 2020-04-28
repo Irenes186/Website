@@ -19,13 +19,23 @@ export default class Testing extends React.Component {
                <h4>Below are links to all external files for Assessment 4</h4>
                <ul>
                    <li>
-                    <a href="" rel="noopener noreferrer" target="_blank">
+                    <a href="https://docs.google.com/spreadsheets/d/1JU1rK-LS1jzFcJrg_5uHe5Zm78SvYtqfBuUTv2Osk2c/edit?usp=sharing" rel="noopener noreferrer" target="_blank">
                         <h4>Test Cases</h4>
                     </a>
                    </li>
                    <li>
-                    <a href="" rel="noopener noreferrer" target="_blank">
+                    <a href="https://docs.google.com/spreadsheets/d/10koG5_ha0KOlAuhfk8r-Nwj6v_hN92lw5h27o-NBLts/edit?usp=sharing" rel="noopener noreferrer" target="_blank">
                         <h4>Traceability Matrix</h4>
+                    </a>
+                   </li>
+                   <li>
+                    <a href="https://docs.google.com/spreadsheets/d/1tdJu1nOScO-sEQLBxAThjFue6Me-LrdQaDtUL11C6A8/edit?usp=sharing" rel="noopener noreferrer" target="_blank">
+                        <h4>Testing Results</h4>
+                    </a>
+                   </li>
+                   <li>
+                    <a href="https://drive.google.com/open?id=1JLj7bIHpK72vfWSMTzHPDZs1Bk4it4u5" rel="noopener noreferrer" target="_blank">
+                        <h4>Code Coverage</h4>
                     </a>
                    </li>
                </ul>
