@@ -16,6 +16,19 @@ export default class Testing extends React.Component {
                 alignItems: DeviceWidth <= 700 ? 'center' : 'flex-start',
             }}>
                <h1>Welcome to the Testing page</h1>
+               <h4>Below are links to all external files for Assessment 4</h4>
+               <ul>
+                   <li>
+                    <a href="" rel="noopener noreferrer" target="_blank">
+                        <h4>Test Cases</h4>
+                    </a>
+                   </li>
+                   <li>
+                    <a href="" rel="noopener noreferrer" target="_blank">
+                        <h4>Traceability Matrix</h4>
+                    </a>
+                   </li>
+               </ul>
                <h4>Below are links to all external files for Assessment 3</h4>
                <ul>
                    <li>

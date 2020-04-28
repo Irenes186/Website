@@ -22,7 +22,7 @@ const Dashboard = ({ DeviceWidth }) => {
                <h1 style={{fontSize: '3.5rem', marginBottom: '1rem'}}>Play <strong style={{fontSize: '5rem'}}>Kroy!</strong></h1>
                 <h3 style={{ marginBottom: '1rem'}}>Created by <strong style={{fontSize: '2.5rem'}}>MiKroysoft!</strong></h3>
                 <a href="" rel="noopener noreferrer" target="_blank">
-                        <h5>Download the Mikroysoft game here - Version assessment 4</h5>
+                        <h5>Download the Mikroysoft game here - Version Assessment 4</h5>
                     </a>
                     <p>The following links contain details about our project</p>
                     <ul>
