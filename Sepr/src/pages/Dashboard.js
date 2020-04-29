@@ -21,7 +21,7 @@ const Dashboard = ({ DeviceWidth }) => {
 
                <h1 style={{fontSize: '3.5rem', marginBottom: '1rem'}}>Play <strong style={{fontSize: '5rem'}}>Kroy!</strong></h1>
                 <h3 style={{ marginBottom: '1rem'}}>Created by <strong style={{fontSize: '2.5rem'}}>MiKroysoft!</strong></h3>
-                <a href="https://drive.google.com/file/d/1Dx2yJNRj1g37jkcIIvPJd_lmFVtSM1lJ/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+                <a href="https://drive.google.com/file/d/1d82hGGoExYUNRn-ewWZfPXoiG5W17-IF/view?usp=sharing" rel="noopener noreferrer" target="_blank">
                         <h5>Download the Mikroysoft game here - Version Assessment 4</h5>
                     </a>
                     <p>The following links contain details about our project</p>
